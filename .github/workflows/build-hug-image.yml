@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/qizhunanhai:latest
+            ghcr.io/splashed0white/qizhunanhai:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
